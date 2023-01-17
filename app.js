@@ -4,7 +4,7 @@ const app = express()
 
 const router = require('./routes/mainRoute.js')
 
-const PORT = 8080
+const PORT = 3000
 
 app.use(express.static(path.join(__dirname, 'statics')))
 
