@@ -2,9 +2,12 @@ const checkbox = document.querySelector("#checkbox");
 const html = document.querySelector("html");
 
 const toggleDarkMode = function () {
-  checkbox.checked
-  ? html.dataset.theme = 'dark'
-  : html.dataset.theme = 'cupcake'
+  if (checkbox.checked)
+  {
+    html.dataset.theme = "dark"
+  } else {
+    html.dataset.theme = "cyberpunk"
+  }
 }
 
 checkbox.addEventListener("click",toggleDarkMode);
