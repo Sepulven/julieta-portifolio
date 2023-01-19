@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "run": "nodemon app.js",
-    "style": "npx tailwindcss -i ./statics/input.css -o ./statics/styles/main.css --watch"
+    "re": "nodemom app.js",
+    "start": "node app.js",
+    "build": "npx tailwindcss -i ./statics/input.css -o ./statics/styles/main.css --watch"
   },
   "repository": {
     "type": "git",
